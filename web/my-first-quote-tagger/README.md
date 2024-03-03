@@ -1,4 +1,4 @@
-# Fatherboat 3.0
+# My First Quote Tagger
 
 Author: kek
 
